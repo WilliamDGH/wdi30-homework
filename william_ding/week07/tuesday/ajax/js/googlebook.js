@@ -23,4 +23,4 @@ $('#search-form').on('submit', function (e) {
   e.preventDefault();
   fetchBook();
 });
-$('#search').on('click', fetchBook);
+// $('#search').on('click', fetchBook);
