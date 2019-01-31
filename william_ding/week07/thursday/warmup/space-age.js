@@ -14,8 +14,8 @@ const spaceAge = {
     Object.keys(this.ageChart).forEach(function(key){
       const age = sec / 86400 / spaceAge.ageChart[key];
       if(planet && key === planet || !planet) {
-        console.log(`You are ${age} ${key}-years old`);
-      } 
+        console.log(`You are ${age} ${key}-years old.`);
+      }
     });
   },
 }
